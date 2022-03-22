@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="main">
+      <article class="container">
+        <section class="phone fadeInLeft" data-anime="200">
+          <header class="phone-header">
+            <div class="phone-user">
+              <img src="./images/back-arrow.svg" alt="" />
+              <img src="./images/avatar.jpg" alt="" class="user-icon" />
+              <h2>Samuel Green</h2>
+              <span>Available to Walk</span>
+            </div>
+            <img src="./images/options.svg" alt="" />
+          </header>
+
+          <div class="messages">
+            <p class="left-message fadeInLeft" data-anime="1200">
+              That sounds great. I’d be happy with that.
+            </p>
+            <p class="left-message fadeInLeft" data-anime="1600">
+              Could you send over some pictures of your dog, please?
+            </p>
+            <ul class="dog-list fadeInRight" data-anime="2000">
+              <li><img src="./images/dog-image-1.jpg" alt="" /></li>
+              <li><img src="./images/dog-image-2.jpg" alt="" /></li>
+              <li><img src="./images/dog-image-3.jpg" alt="" /></li>
+            </ul>
+            <p class="right-message fadeInRight" data-anime="2400">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+            <p class="right-message fadeInRight" data-anime="2800">
+              Can you make it?
+            </p>
+            <p class="left-message fadeInLeft" data-anime="3200">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+            <div class="offer fadeInLeft" data-anime="3600">
+              <div class="offer-left">
+                <img src="./images/offer.svg" alt="" width="20">
+                <p>30 minute walk</p>
+              </div> 
+              <strong>$29</strong>
+            </div>
+            <div class="offer fadeInLeft" data-anime="4000">
+              <div class="offer-left">
+                <img src="./images/offer.svg" alt="" width="20">
+                <p>1 hour walk</p>
+              </div>
+              <strong>$49</strong>
+            </div>
+            <form class="input-container">
+              <input class="input" type="text" placeholder=" Type a message…" />
+              <button class="button"><img src="./images/button-arrow.svg" alt=""></button>
+            </form>
+          </div>
+        </section>
+
+        <section class="info fadeInRight" data-anime="300">
+          <header><h1>Simple booking</h1></header>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </section>
+      </article>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.linkedin.com/in/rafael-moreira-3baa96205/">Rafael Moreira</a>.
+      </div>
+    </main>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
